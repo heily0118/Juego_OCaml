@@ -1,0 +1,4 @@
+(executable
+ (public_name juego_ocaml)
+ (name main)
+ (libraries juego_ocaml))
