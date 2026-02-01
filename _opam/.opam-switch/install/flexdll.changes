@@ -1,0 +1,18 @@
+opam-version: "2.0"
+added: [
+  "share" {"D"}
+  "share\\flexdll" {"D"}
+  "share\\flexdll\\Compat.ml.in" {"F:S4230T1769966915.35"}
+  "share\\flexdll\\Makefile" {"F:S10534T1769966915.34"}
+  "share\\flexdll\\cmdline.ml" {"F:S11173T1769966915.35"}
+  "share\\flexdll\\coff.ml" {"F:S32729T1769966915.35"}
+  "share\\flexdll\\create_dll.ml" {"F:S14106T1769966915.36"}
+  "share\\flexdll\\default.manifest" {"F:S389T1769966915.36"}
+  "share\\flexdll\\default_amd64.manifest" {"F:S391T1769966915.37"}
+  "share\\flexdll\\flexdll.c" {"F:S19479T1769966915.37"}
+  "share\\flexdll\\flexdll.h" {"F:S824T1769966915.37"}
+  "share\\flexdll\\flexdll.opam" {"F:S436T1769966915.37"}
+  "share\\flexdll\\flexdll_initer.c" {"F:S1373T1769966915.37"}
+  "share\\flexdll\\reloc.ml" {"F:S51711T1769966915.37"}
+  "share\\flexdll\\version.rc" {"F:S898T1769966915.38"}
+]

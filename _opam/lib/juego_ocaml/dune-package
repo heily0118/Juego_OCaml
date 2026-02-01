@@ -1,0 +1,8 @@
+(lang dune 3.21)
+(name juego_ocaml)
+(version 0b398fd)
+(sections (lib .) (bin ../../bin) (doc ../../doc/juego_ocaml))
+(files
+ (lib (META dune-package opam))
+ (bin (juego_ocaml.exe))
+ (doc (README.md)))

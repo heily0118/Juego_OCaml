@@ -1,0 +1,34 @@
+opam-version: "2.0"
+bin: [
+  "shim.exe" {"cygpath.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-addr2line.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-ar.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-as.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-c++filt.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-dlltool.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-dllwrap.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-elfedit.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-gprof.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-ld.bfd.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-ld.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-nm.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-objcopy.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-objdump.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-ranlib.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-readelf.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-size.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-strings.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-strip.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-windmc.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-windres.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-cpp.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-gcc.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-gcc-13.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-gcc-ar.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-gcc-nm.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-gcc-ranlib.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-gcov.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-gcov-dump.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-gcov-tool.exe"}
+  "shim.exe" {"x86_64-w64-mingw32-lto-dump.exe"}
+]

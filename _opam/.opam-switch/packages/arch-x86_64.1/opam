@@ -1,0 +1,21 @@
+opam-version: "2.0"
+synopsis: "Build OCaml for amd64 (64-bit)"
+description: """\
+Installing this package causes the OCaml compiler packages to target
+64-bit Intel x86 (x86_64/amd64/x64).
+
+At present, this facility is only available for the native Windows ports of
+OCaml."""
+maintainer: "David Allsopp <david@tarides.com>"
+authors: "David Allsopp"
+license: "CC0-1.0+"
+homepage: "https://opam.ocaml.org"
+bug-reports: "https://github.com/ocaml/opam-repository/issues"
+depends: [
+  ("ocaml-base-compiler" {post & >= "4.13.0~"} |
+   "ocaml-variants" {post & >= "4.13.0~"})
+  "host-arch-x86_64" {post}
+]
+conflict-class: "ocaml-arch"
+available: os = "win32" & (arch = "x86_64" | arch = "arm64")
+flags: compiler

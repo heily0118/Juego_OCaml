@@ -1,0 +1,10 @@
+OPAM_SWITCH_PREFIX	=	C:\\Users\\USUARIO\\Desktop\\Juego_OCaml\\_opam	;	target	Prefix\ of\ the\ current\ opam\ switch
+CAML_LD_LIBRARY_PATH	=	C:\\Users\\USUARIO\\Desktop\\Juego_OCaml\\_opam\\lib/stublibs	;	target	Updated\ by\ package\ ocaml-base-compiler
+OCAMLTOP_INCLUDE_PATH	+=	C:\\Users\\USUARIO\\Desktop\\Juego_OCaml\\_opam\\lib\\toplevel	;	target	Updated\ by\ package\ ocaml
+CAML_LD_LIBRARY_PATH	=	C:/Users/USUARIO/Desktop/Juego_OCaml/_opam/lib/ocaml/stublibs;C:/Users/USUARIO/Desktop/Juego_OCaml/_opam/lib/ocaml	;	target	Updated\ by\ package\ ocaml
+CAML_LD_LIBRARY_PATH	+=	C:\\Users\\USUARIO\\Desktop\\Juego_OCaml\\_opam\\lib/stublibs	;	target	Updated\ by\ package\ ocaml
+OCAML_TOPLEVEL_PATH	=	C:\\Users\\USUARIO\\Desktop\\Juego_OCaml\\_opam\\lib\\toplevel	Updated\ by\ package\ ocaml
+PATH	+=	C:\\Users\\USUARIO\\AppData\\Local\\opam\\.cygwin\\root\\usr\\x86_64-w64-mingw32\\sys-root\\mingw\\bin	Updated\ by\ package\ mingw-w64-shims
+PATH	+=	@	Updated\ by\ package\ mingw-w64-shims
+MANPATH	=:	C:\\Users\\USUARIO\\Desktop\\Juego_OCaml\\_opam\\man	:	host	Current\ opam\ switch\ man\ dir
+PATH	=+=	C:\\Users\\USUARIO\\Desktop\\Juego_OCaml\\_opam\\bin	;	target-quoted	Binary\ dir\ for\ opam\ switch\ C:\\Users\\USUARIO\\Desktop\\Juego_OCaml

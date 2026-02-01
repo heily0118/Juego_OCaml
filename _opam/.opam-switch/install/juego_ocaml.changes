@@ -1,0 +1,10 @@
+opam-version: "2.0"
+added: [
+  "bin\\juego_ocaml.exe" {"F:S1637735T1769967768.58"}
+  "doc\\juego_ocaml" {"D"}
+  "doc\\juego_ocaml\\README.md" {"F:S32T1769967768.92"}
+  "lib\\juego_ocaml" {"D"}
+  "lib\\juego_ocaml\\META" {"F:S0T1769967768.91"}
+  "lib\\juego_ocaml\\dune-package" {"F:S201T1769967768.91"}
+  "lib\\juego_ocaml\\opam" {"F:S805T1769967768.92"}
+]

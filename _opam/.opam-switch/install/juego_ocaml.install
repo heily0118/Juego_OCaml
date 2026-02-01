@@ -1,0 +1,8 @@
+opam-version: "2.0"
+lib: [
+  "_build/install/default/lib/juego_ocaml/META"
+  "_build/install/default/lib/juego_ocaml/dune-package"
+  "_build/install/default/lib/juego_ocaml/opam"
+]
+bin: "_build/install/default/bin/juego_ocaml.exe"
+doc: "_build/install/default/doc/juego_ocaml/README.md"

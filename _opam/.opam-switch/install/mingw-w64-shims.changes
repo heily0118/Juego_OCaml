@@ -1,0 +1,35 @@
+opam-version: "2.0"
+added: [
+  ".opam-switch\\config\\mingw-w64-shims.config" {"F:S180T1769966918.41"}
+  "bin\\cygpath.exe" {"F:S10821T1769966918.41"}
+  "bin\\x86_64-w64-mingw32-addr2line.exe" {"F:S10821T1769966918.59"}
+  "bin\\x86_64-w64-mingw32-ar.exe" {"F:S10821T1769966918.73"}
+  "bin\\x86_64-w64-mingw32-as.exe" {"F:S10821T1769966918.86"}
+  "bin\\x86_64-w64-mingw32-c++filt.exe" {"F:S10821T1769966918.97"}
+  "bin\\x86_64-w64-mingw32-cpp.exe" {"F:S10821T1769966920.95"}
+  "bin\\x86_64-w64-mingw32-dlltool.exe" {"F:S10821T1769966919.09"}
+  "bin\\x86_64-w64-mingw32-dllwrap.exe" {"F:S10821T1769966919.2"}
+  "bin\\x86_64-w64-mingw32-elfedit.exe" {"F:S10821T1769966919.32"}
+  "bin\\x86_64-w64-mingw32-gcc-13.exe" {"F:S10821T1769966921.17"}
+  "bin\\x86_64-w64-mingw32-gcc-ar.exe" {"F:S10821T1769966921.29"}
+  "bin\\x86_64-w64-mingw32-gcc-nm.exe" {"F:S10821T1769966921.39"}
+  "bin\\x86_64-w64-mingw32-gcc-ranlib.exe" {"F:S10821T1769966921.51"}
+  "bin\\x86_64-w64-mingw32-gcc.exe" {"F:S10821T1769966921.06"}
+  "bin\\x86_64-w64-mingw32-gcov-dump.exe" {"F:S10821T1769966921.77"}
+  "bin\\x86_64-w64-mingw32-gcov-tool.exe" {"F:S10821T1769966921.89"}
+  "bin\\x86_64-w64-mingw32-gcov.exe" {"F:S10821T1769966921.63"}
+  "bin\\x86_64-w64-mingw32-gprof.exe" {"F:S10821T1769966919.46"}
+  "bin\\x86_64-w64-mingw32-ld.bfd.exe" {"F:S10821T1769966919.57"}
+  "bin\\x86_64-w64-mingw32-ld.exe" {"F:S10821T1769966919.69"}
+  "bin\\x86_64-w64-mingw32-lto-dump.exe" {"F:S10821T1769966922.03"}
+  "bin\\x86_64-w64-mingw32-nm.exe" {"F:S10821T1769966919.8"}
+  "bin\\x86_64-w64-mingw32-objcopy.exe" {"F:S10821T1769966919.92"}
+  "bin\\x86_64-w64-mingw32-objdump.exe" {"F:S10821T1769966920.03"}
+  "bin\\x86_64-w64-mingw32-ranlib.exe" {"F:S10821T1769966920.15"}
+  "bin\\x86_64-w64-mingw32-readelf.exe" {"F:S10821T1769966920.26"}
+  "bin\\x86_64-w64-mingw32-size.exe" {"F:S10821T1769966920.37"}
+  "bin\\x86_64-w64-mingw32-strings.exe" {"F:S10821T1769966920.48"}
+  "bin\\x86_64-w64-mingw32-strip.exe" {"F:S10821T1769966920.6"}
+  "bin\\x86_64-w64-mingw32-windmc.exe" {"F:S10821T1769966920.72"}
+  "bin\\x86_64-w64-mingw32-windres.exe" {"F:S10821T1769966920.84"}
+]
