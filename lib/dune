@@ -1,2 +1,3 @@
 (library
- (name juego_ocaml))
+ (name juego_ocaml)
+ (modules Jugador Enemigo Combate))
