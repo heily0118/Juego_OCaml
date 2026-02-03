@@ -16,4 +16,6 @@ let crear nombre =
 (* Función para recibir daño *)
 let recibir_danio e danio =
   (* devolvemos un enemigo con menos vida *)
+
   { e with vida = e.vida - danio }
+
