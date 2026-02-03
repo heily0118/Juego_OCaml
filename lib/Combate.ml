@@ -9,20 +9,16 @@ let turno_jugador (jugador : Jugador.jugador) (enemigo : Enemigo.enemigo) =
 (* Turno del enemigo de atacar al jugador *)
 let turno_enemigo (jugador : Jugador.jugador) (enemigo : Enemigo.enemigo) =
   (* Mensaje para el usuario *)
-  print_endline "⚔️ El enemigo te ataca!";
+  print_endline "⚔️ ¡El enemigo te ataca!";
   (* Se le resta vida al jugador según el ataque del enemigo *)
   Jugador.recibir_danio jugador enemigo.Enemigo.ataque
 
 
-(* Función para defenderse y que el usuario recupere un poco de vida *)
-let defender (jugador : Jugador.jugador) =
-  (* Mensaje para el usuario *)
-  print_endline "¡Te estás defendiendo!";
-  (* Se guarda la vida actual del jugador *)
-  let vida_actual = jugador.Jugador.vida in
-  (* Devolvemos un nuevo jugador con más vida *)
-  { jugador with vida = vida_actual + 5 }
-  
+(* Función para defenderse *)
+(* Al defenderse, se aumenta la defensa para reducir daño *)
+let defender jugador =
+  print_endline "🛡️ ¡Te pones en posición defensiva!";
+  { jugador with Jugador.defensa = jugador.Jugador.defensa + 3}
 
 (* Función para verificar si el jugador está muerto *)
 let jugador_muerto (jugador : Jugador.jugador) =

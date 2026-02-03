@@ -1,12 +1,12 @@
 open Juego_ocaml
 
 let mostrar_estado jugador enemigo =
-  print_endline "--------------------";
+  print_endline "-----------------------------";
   Printf.printf "Jugador %s - ❤️ Vida: %d\n"
     jugador.Jugador.nombre jugador.Jugador.vida;
   Printf.printf "Enemigo %s - 💚 Vida: %d\n"
     enemigo.Enemigo.nombre enemigo.Enemigo.vida;
-  print_endline "--------------------"
+  print_endline "-----------------------------"
 
 (* Muestra las opciones disponibles en cada turno *)
 let mostrar_menu () =
@@ -59,11 +59,26 @@ let rec bucle_juego jugador enemigo =
 
     (* Opción 2: Defenderse *)
     | 2 ->
-        let jugador_defendido = Combate.defender jugador in
+        (* Mostrar defensa antes *)
+        Printf.printf "🛡️ Defensa antes: %d\n" jugador.Jugador.defensa;
+
+        (* Defenderse *)
+        let jugador_defendido = Combate.defender jugador in 
+
+        (* Mostrar defensa después *)
+        Printf.printf "🛡️ Defensa después: %d\n" jugador_defendido.Jugador.defensa;
+
+        (* Vida antes del ataque enemigo *)
+        Printf.printf "❤️ Vida antes del ataque: %d\n" jugador_defendido.Jugador.vida;
+
         (* El enemigo ataca después de defender *)
         let jugador_nuevo =
           Combate.turno_enemigo jugador_defendido enemigo
         in
+
+        (* Vida después del ataque enemigo *)
+        Printf.printf "❤️ Vida después del ataque: %d\n" jugador_nuevo.Jugador.vida;
+
         bucle_juego jugador_nuevo enemigo
 
     (* Opción 3: Curarse *)

@@ -24,5 +24,5 @@ let recibir_danio j danio =
 
 (* Función para curarse el jugador *)
 let curar j =
-  print_endline "Te curas y recuperas vida!";
+  print_endline "¡Te curas y recuperas vida!";
   { j with vida = j.vida + 20 }

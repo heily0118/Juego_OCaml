@@ -10,7 +10,7 @@ let crear nombre =
   {
     nombre = nombre;
     vida = 80;       (* menos vida que el jugador *)
-    ataque = 15;     (* ataque menor *)
+    ataque = 17;     (* ataque menor *)
   }
 
 (* Función para recibir daño *)
